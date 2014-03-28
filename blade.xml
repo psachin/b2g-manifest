@@ -12,6 +12,7 @@
   <remote name="mozillaorg"
           fetch="https://git.mozilla.org/releases" />
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
+  <remote name="psachin" fetch="git://github.com/psachin/" />
   <default revision="b2g/ics_strawberry"
            remote="caf"
            sync-j="4" />
@@ -103,7 +104,7 @@
   <project path="system/vold" name="platform/system/vold" revision="b2g_ics_1.2" />
 
   <!-- zte-blade specific things -->
-  <project path="device/zte/blade" name="android-device-hamachi" remote="b2g" revision="master" />
+  <project path="device/zte/blade" name="android_device_zte_blade" remote="psachin" revision="ics" />
   <project path="kernel" name="kernel/msm" revision="b2g_ics_1.2" />
   <project path="hardware/ril" name="platform/hardware/ril" revision="b2g_ics_1.2" />
 </manifest>
