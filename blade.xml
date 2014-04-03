@@ -106,6 +106,6 @@
   <!-- zte-blade specific things -->
   <project path="device/zte/blade" name="android_device_zte_blade" remote="psachin" revision="ics" />
   <project path="kernel" name="zte-kernel-msm7x27" remote="psachin" revision="ics" />
-  <project path="vendor/zte/blade" name="proprietary_vendor_zte" remote="psachin" revision="ics" />
+  <project path="vendor/zte" name="proprietary_vendor_zte" remote="psachin" revision="ics" />
   <project path="hardware/ril" name="platform/hardware/ril" revision="b2g_ics_1.2" />
 </manifest>
