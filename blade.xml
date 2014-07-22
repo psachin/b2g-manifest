@@ -71,7 +71,6 @@
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="master" />
-  <project path="external/skia" name="platform/external/skia" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" revision="fb30e613139b8836fdc8e81e166cf3a76e5fa17f"/>
@@ -107,5 +106,6 @@
   <project path="device/zte/blade" name="android_device_zte_blade" remote="psachin" revision="ics" />
   <project path="kernel" name="zte-kernel-msm7x27" remote="psachin" revision="ics" />
   <project path="vendor/zte" name="proprietary_vendor_zte" remote="psachin" revision="ics" />
+  <project path="external/skia" name="platform_external_skia" remote="psachin" revision="master" />
   <project path="hardware/ril" name="platform/hardware/ril" revision="b2g_ics_1.2" />
 </manifest>
